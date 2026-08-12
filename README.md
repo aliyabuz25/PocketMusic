@@ -4,7 +4,16 @@
 
 Native macOS müzik deneyimi — menü çubuğu, tam ekran uygulama, mini player, şifreli offline indirme.
 
-**[Ali Yabuza](https://github.com/aliyabuz)** tarafından geliştirildi.
+**[Ali Yabuza](https://github.com/aliyabuz25)** tarafından geliştirildi.
+
+### Ekosistem paketleri
+
+| Paket | Açıklama |
+|-------|----------|
+| [AppleMusicCharts](https://github.com/aliyabuz25/AppleMusicCharts) | iTunes arama + Apple RSS listeleri |
+| [SwiftUIGhost](https://github.com/aliyabuz25/SwiftUIGhost) | Shimmer skeleton loading bileşenleri |
+| [PocketCrypto](https://github.com/aliyabuz25/PocketCrypto) | AES-GCM + Keychain şifreleme |
+| [macos-dev-kit](https://github.com/aliyabuz25/macos-dev-kit) | macOS / Swift geliştirme scriptleri |
 
 ---
 
@@ -51,7 +60,7 @@ brew install yt-dlp mpv
 ### Hızlı kurulum
 
 ```bash
-git clone https://github.com/aliyabuz/PocketMusic.git
+git clone https://github.com/aliyabuz25/PocketMusic.git
 cd PocketMusic/PocketMusicSwift
 chmod +x install.sh
 ./install.sh
@@ -144,5 +153,5 @@ Eski Python menü çubuğu ve Spotlight prototipi `legacy/python/` altında sakl
 <p align="center">
   <strong>Pocket Music</strong> — Dinle. Keşfet. Sakla.
   <br>
-  <a href="https://github.com/aliyabuz">@aliyabuz</a>
+  <a href="https://github.com/aliyabuz25">@aliyabuz25</a>
 </p>
