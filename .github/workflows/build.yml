@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: brew install yt-dlp mpv
+
+      - name: Build PocketMusic
+        run: |
+          chmod +x PocketMusicSwift/build.sh
+          PocketMusicSwift/build.sh
+
+      - name: Verify binary
+        run: |
+          test -f PocketMusicSwift/PocketMusic.app/Contents/MacOS/PocketMusic
+          file PocketMusicSwift/PocketMusic.app/Contents/MacOS/PocketMusic

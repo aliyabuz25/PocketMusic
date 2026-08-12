@@ -1,0 +1,37 @@
+# Build artifacts
+PocketMusicSwift/build/
+PocketMusicSwift/PocketMusic.app/
+PocketMusicSpotlight.app/
+SpotlightApp/build/
+SpotlightApp/*.app/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# User data (never commit)
+.pocketmusic/
+
+# IDE
+.idea/
+.vscode/
+*.xcuserstate
+*.xcworkspace/
+DerivedData/
+
+# Logs
+*.log
+
+# Local env
+.env
+.env.*
